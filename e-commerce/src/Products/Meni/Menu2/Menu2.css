@@ -1,0 +1,194 @@
+
+#Tennis1{
+    background: url("https://www.atptour.com/en/tournaments/us-open/560/-/media/images/news/2021/09/13/07/28/us-open-tournament-page-2021.jpg") no-repeat;
+    background-size: cover;
+    color:white;
+    width: 100%;
+    height: 800px;
+}
+.TennisBlock{
+
+    text-align: left;
+    width: 60%;
+    margin-left:40px;
+    opacity: 87%;
+    border-radius: 5px;
+    background-color: seagreen;
+    padding: 5px;
+    position: relative;
+    top:80px;
+    margin-top: 20px;
+}
+#Tennis footer{
+    margin-top:-10px;
+}
+#Tennis aside{
+    margin-top: -470px;
+    margin-right: 40px;
+    background-color: rgba(211, 211, 211, 0.28);
+    backdrop-filter: contrast(20%);
+    height: 65%;
+}
+#GolfBlock1{
+    width: 100%;
+    background: url("https://static.theceomagazine.net/wp-content/uploads/2019/12/13105321/rolex-golf-3.jpg") no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(60%);
+    height: 500px;
+    padding-top: 10%;
+    color: whitesmoke;
+}
+#Golf h2{
+    font-style: oblique;
+    font-weight: bold;
+}
+#Golf h2:before{
+    content: none;
+}
+#Golf aside{
+    width: 24%;
+    margin-right:30px;
+    position: relative;
+    top:-300px;
+    height: 100%;
+    backdrop-filter: contrast(70%);
+}
+#GolfBlock2{
+    width: 100%;
+    height: 700px;
+    background: url("https://journal.craftandtailored.com/wp-content/uploads/12-Golf-the-Rolex-Way_x1dpvv.jpg") no-repeat;
+    background-size: cover;
+    margin-top:-20px;
+    margin-right:20px;
+    color: #e3e2e1;
+}
+#GolfBlock1 p{
+    text-align: center;
+    padding: 10px;
+}
+#GolfBlock2 p,
+#GolfBlock3 p,
+#GolfBlock4 p{
+    padding: 10px;
+}
+#GolfBlock3{
+    width:100%;
+    margin-top: -20px;
+    height: 700px;
+    background: url("https://golftoday.co.uk/wp-content/uploads/2018/08/rolex-trophy_koivu4.jpg") no-repeat;
+    background-size: cover;
+
+    color: #e3e2e1;
+}
+#GolfBlock3 .MSBlock1,
+#GolfBlock4 .MSBlock1{
+    float: right;
+    margin-right:20px;
+    width: 50%;
+    margin-top:-20px;
+}
+#GolfBlock4{
+    width: 100%;
+    margin-top: -20px;
+    height: 700px;
+    background: url("https://res.cloudinary.com/usga/image/upload/c_fill,dpr_3.0,g_face,q_70,w_450/v1/usga/images/championships/2020/womens-open/article-splash/nelly-korda-article.jpg ") no-repeat;
+    background-size: cover;
+    margin-right:20px;
+    color: #e3e2e1;
+}
+#Golf footer{
+    margin-top:-10px;
+}
+#Yachting{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/world-of-rolex/rolex-and-sports/rolex-and-yachting/rolex-and-yachting-hub/maxi-yacht/og_maxi19cb_00628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:-21px;
+    color: white;
+}
+.YachtingBlock{
+    width: 60%;
+    text-align: justify;
+    padding:20px;
+    position: relative;
+    top:50px;
+    background-color:seagreen;
+    opacity: 80%;
+    margin-left: 20px;
+}
+#Yachting aside{
+    height:55%;
+    background-color: rgba(211, 211, 211, 0.28);
+    backdrop-filter: contrast(30%);
+    margin-top: -140px;
+}
+#Yacht1 footer{
+    margin-top:-50px;
+}
+#MotorSport1{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://www.imsa.com/wp-content/uploads/sites/32/2023/01/24/GALSTAD-ROAR-DIS-0123-018361_2023-01-24.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#MotorSport1 aside{
+    width: 30%;
+    height: 70%;
+    margin-top: -200px;
+    backdrop-filter: contrast(40%);
+}
+#MotorSport1 h2,
+#MotorSport1 p{
+    width: 60%;
+    position: relative;
+    top:20%;
+    text-align: justify;
+    padding-left: 20px;
+    color:whitesmoke;
+    padding-bottom: 20px;
+}
+#MotorSport2{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://www.mediastorehouse.com/p/731/mercedes-benz-ssks-malcolm-campbell-earl-howe-15159933.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+}
+#MotorSport2 p,
+#MotorSport2 h2{
+    text-align: justify;
+    padding:10px;
+    color:whitesmoke;
+}
+.MSBlock1{
+    position: relative;
+    top:20%;
+    width: 60%;
+    margin-left: 20px;
+    background-color: seagreen;
+    opacity: 80%;
+}
+#MotorSport3{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://th.bing.com/th/id/R.a6de5f18e4d82bace8906ccfcd680929?rik=ajYmmtXgn0XxQg&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size:100% 700px;
+    color:whitesmoke;
+    text-align: justify;
+    margin-top: -20px;
+}
+#MotorSport3 h2,
+#MotorSport3 p{
+    width: 70%;
+    padding-left: 20px;
+    position: relative;
+    top:10%;
+}
+#MotorSport footer{
+    margin-top:-15px;
+}

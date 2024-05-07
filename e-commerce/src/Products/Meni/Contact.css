@@ -1,0 +1,35 @@
+#Contact{
+    width: 100%;
+}
+#Contact-form{
+    display: inline-block;
+    float: left;
+    width: 800px;
+    margin-left: 200px;
+    height: 400px;
+    overflow: scroll;
+    margin-bottom: 60px;
+    background-color: beige;
+    border: 2px black double;
+    border-radius: 10px;
+}
+#Contact-form h2{
+   text-align: center;
+}
+#Contact-form h2:after{
+    content: '\269C';
+}
+#Contact-form p{
+    text-align: center;
+}
+#Contact-form li{
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    font-style: oblique;
+    font-weight: initial;
+}
+#Contact-form p:last-of-type{
+    font-style: oblique;
+    font-weight: bold;
+}

@@ -1,0 +1,83 @@
+#header1{
+    width:71%;
+    text-align: justify;
+    margin-left:15px;
+    display: inline-block;
+    float: left;
+    height: 600px;
+}
+#header2{
+    width: 100%;
+    text-align: justify;
+    margin-left:15px;
+    display: inline-block;
+    float: left;;
+}
+#header1 p{
+    line-height: 30px;
+     font-weight: normal;
+    font-style: normal;
+}
+#header1 img{
+    margin-left:250px;
+    border: 1px black solid;
+    box-shadow: 2px 5px 2px black;
+}
+h1:before,
+h1:after{
+    content:'\2655';
+}
+h2:before{
+    content: '\269C';
+}
+#header2 ul>li{
+    padding: 15px;
+    width: 70%;
+}
+#fig1
+{
+    display: inline-block;
+    float: right;
+    width: 320px;
+    margin-top:-590px;
+    height: 220px;
+    border: grey 2px double;
+    padding:10px;
+}
+#fig1 figcaption,
+#fig2 figcaption{
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+#fig2{
+    display: inline-block;
+    float: right;
+    width: 320px;
+    margin-top:-280px;
+    height: 220px;
+    border: grey 2px double;
+    padding:10px;
+}
+#fig2 img,
+#fig1 img{
+    margin-left:11px;
+}
+#footer{
+    margin-top:1250px;
+    background-color: seagreen;
+    border-radius: 6px;
+    color:white;
+    width: 50%;
+    height:30px;
+    position: relative;
+    left:25%;
+}
+#footer a{
+    color:white;
+}
+ #AboutUs #header1 a,
+ #AboutUs #header2 a{
+    color: black;
+    font-style: italic;
+}

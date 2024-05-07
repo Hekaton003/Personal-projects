@@ -1,0 +1,85 @@
+
+#cinema1{
+    width: 100%;
+    height:1200px;
+    margin-top: -30px;
+}
+.CinemaBlock{
+    width: 60%;
+    text-align: justify;
+    position:relative;
+    top:140px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    opacity: 70%;
+    margin-top:20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#cinema1 aside{
+    backdrop-filter: contrast(50%);
+    margin-top:-1150px;
+    height:39%;
+}
+#cinema footer{
+  position: relative;
+   top:45px
+}
+#background{
+    width: 100%;
+    height:1280px;
+    object-fit:cover;
+    z-index: -1;
+    margin-top: -920px;
+}
+#MusicBlock1{
+    width: 100%;
+    height: 900px;
+    background-image: url('https://cdn.elebase.io/173fe953-8a63-4a8a-8ca3-1bacb56d78a5/0ea63008-fb08-4b6a-8ed0-29403547cf2a-gmg_04_music_festival_fotograf_martin_schenk.jpg?w=1000&h=500&fit=crop&q=75');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#MusicBlock1 aside{
+    backdrop-filter: contrast(40%);
+    margin-top: -460px;
+    height: 55%;
+}
+
+#music footer{
+    margin-top:-20px;
+}
+#ArchitectureBlock{
+    width: 100%;
+    height: 900px;
+    background-image: url("https://th.bing.com/th/id/R.34ef1a3296a65bf69e45912fc1d26119?rik=WCmvFfePN3%2fEMg&riu=http%3a%2f%2f4.bp.blogspot.com%2f_2JrKyRMcVU8%2fS-lWPF90vkI%2fAAAAAAAAmDM%2fHsLUgeW0jbc%2fs1600%2f1.jpg&ehk=IICU8iqsNWFlM%2b2VULXs406zA642KpTxuNTYqd00QWM%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#architecture>h2:after{
+   content: '\269C';
+}
+#architecture aside{
+    backdrop-filter: contrast(70%);
+    height: 60%;
+    margin-top:-20px;
+}
+#ArchitectureContainer{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 520px 520px;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin-left:190px;
+    height: 570px;
+    overflow: scroll;
+}
+.buildings{
+    border: 2px black double;
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 5px;
+}
+.buildings img{
+    border-radius: 10px;
+}

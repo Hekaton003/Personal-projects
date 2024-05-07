@@ -1,0 +1,22 @@
+#storeContainer{
+    display: inline-grid;
+    grid-template-columns: 450px 450px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    height: 430px;
+    overflow: scroll;
+    float: left;
+    margin-left:50px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.stores{
+    background-color: seagreen;
+    border-radius: 10px;
+    color:wheat;
+    font-style: oblique;
+}
+.stores img{
+    margin-top:10px;
+    border-radius: 10px;
+}
