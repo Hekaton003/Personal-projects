@@ -1,3 +1,6 @@
+# Rolex e-commerce website
+This project is about displaying  some of the latest brand new  rolex men watches and also to display some detailed information about the rolex brand  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
