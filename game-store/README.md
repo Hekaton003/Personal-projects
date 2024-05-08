@@ -1,3 +1,5 @@
+# Game store website
+This project is about displaying some popular video games from every genre  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
