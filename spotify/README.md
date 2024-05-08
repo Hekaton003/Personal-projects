@@ -1,3 +1,5 @@
+# Spotify website
+This project is about selecting your favourite songs using the Spotify API  database.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
