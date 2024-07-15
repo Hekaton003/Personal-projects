@@ -1,0 +1,92 @@
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+#Navmenu{
+    display: inline-block;
+    width: 30%;
+    float: right;
+}
+#Navmenu a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#Navmenu  #shopping{
+    position: relative;
+    top:5px;
+}
+.CartItem{
+    display: inline-grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    width: 75%;
+    height: 520px;
+    overflow: scroll;
+    border: 2px black solid;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: navajowhite;
+}
+.cartBlock{
+    background-color: seagreen;
+    border-radius: 10px;
+    color:white;
+    margin-left:70px;
+
+    box-shadow: 5px 3px 4px black;
+}
+.cartBlock p:last-of-type{
+    position: relative;
+    right: 50px;
+}
+.cartBlock>img{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left:-10px;
+}
+.CountHandler{
+    position: relative;
+    top:-38px;
+    left:46%;
+    width: 100px;
+
+}
+.CountHandler input{
+    width: 20px;
+    display: inline-block;
+    float:none;
+    border-radius: 2px;
+    padding-left:2px;
+    text-align: center;
+    border-radius: 6px;
+}
+#Loading{
+    width: 100%;
+    margin-top:100px;
+    font-size: 30px;
+    font-style:oblique;
+    font-weight: bold;
+    margin-bottom:500px;
+}
+.Checkout{
+    border-radius: 10px;
+    border:2px black double;
+    font-style: oblique;
+    padding: 10px;
+    width: 300px;
+    margin:auto;
+    font-weight: bold;
+}
+.Checkout button{
+    background-color: seagreen;
+    border-radius: 20px;
+    color:white;
+    padding: 5px;
+}

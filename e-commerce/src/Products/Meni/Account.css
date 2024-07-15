@@ -1,0 +1,110 @@
+
+#accountForum{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 100px;
+    position: relative;
+    left:5%;
+    text-align: left;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+#accountForum #profile{
+    width: 100%;
+    height: 190px;
+    border-bottom: 2px black solid;
+}
+#profile img{
+    margin-left: 10px;
+}
+#profile button{
+    position: relative;
+    top:-50%;
+    left:20%;
+}
+
+#accountForum #profile>h3{
+   position: relative;
+    top:-42%;
+    left:16%;
+    font-size: 20px;
+    font-style: normal;
+}
+#accountForum #profile>p{
+    position: relative;
+    top:-29%;
+    left: 2%;
+}
+#accountForum h2:before{
+    content: none;
+}
+#account aside{
+    margin-top:20px;
+    width: 26%;
+    height:80%;
+    margin-bottom: 10%;
+}
+#accountForum #info{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+    border-bottom: 2px black solid ;
+}
+#accountForum #info input,
+#accountForum #Login input{
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    width: 300px;
+}
+#accountForum #info label,
+#accountForum #Login label{
+    text-align: left;
+    padding-left: 5px;
+}
+#accountForum #Login {
+    text-align: left;
+    width: 100%;
+    height: 100px;
+}
+#accountForum #Login h2{
+    text-align: left;
+
+}
+ #accountForum #password{
+    cursor: not-allowed ;
+}
+ #orderList{
+     width: 100%;
+     margin-top:750px;
+ }
+ #OrderContainer{
+     width: 75%;
+     height: 500px;
+     overflow: scroll;
+     border: 2px black double;
+     border-radius: 10px;
+     display: inline-grid;
+     padding: 20px;
+     grid-template-columns: 450px 450px;
+     gap:50px;
+ }
+ .OrderProduct{
+     background-color: seagreen;
+     width: 450px;
+     position: relative;
+     left:23%;
+     height: 540px;
+     border: 1px black double;
+     border-radius: 10px;
+     color: floralwhite;
+     padding: 5px;
+ }
+ .OrderProduct img{
+     margin-left:7px;
+     background-color: #2a2626;
+     margin-top: 10px;
+     border-radius: 10px;
+ }

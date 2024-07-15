@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height:120px;
+  width: 300px;
+  pointer-events: none;
+  border-radius:2px;
+  margin:auto;
+}
+.App-header {
+  background-color:seagreen;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+main>h1{
+  text-align: center;
+}
